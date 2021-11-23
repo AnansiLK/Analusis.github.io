@@ -1,0 +1,132 @@
+body{
+    margin-top: 0px;
+    padding: 0px;
+    background-color: black;
+    
+}
+
+nav{
+   
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 0px;
+    
+}
+nav::before{
+    content: '';
+    display: block;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+   
+    border-bottom:8px solid rgb(78, 4, 50);
+    animation: ae 10s ease-in-out infinite;
+    
+}
+
+.Mndm{
+    color: rgb(235, 98, 98);
+}
+ul{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    color: white;
+    display: block;
+    height: 70px;
+    padding: 0 75px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 70px;
+    transition: bottom 0.25s ease-out 0.5s;
+    font-family: 'Shippori Antique', sans-serif;
+    
+}
+ul li a:hover{
+   
+    color: rgb(255, 255, 255);
+    background-image: url(bar.jpg);
+   
+    
+
+}
+@keyframes ae {
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: rgb(20, 18, 20);
+    }
+    50%{
+        background-color: rgb(29, 17, 32);
+    }
+    75%{
+        background-color: rgb(22, 1, 27);
+    }
+    100%{
+        background-color: black;
+    }
+    
+}
+.ssss{
+    height: 600px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.osnova{
+    width: 600px;
+    height: 600px;
+    
+    opacity: 100%;
+    display: block;
+    margin: 0 auto;
+    position: right;
+    
+    
+}
+.osnova:hover{
+    opacity: 100%;
+    color: antiquewhite;
+}
+.texxxt{
+    width: 400px;
+    height: 600px;
+    
+    
+    text-align: right;
+    vertical-align: top;
+    display: block;
+    
+    
+    
+
+}
+.yet, .shui, .ed{
+    color: aliceblue;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 40px;
+}
+img{
+    
+    opacity: 100%;
+    float: right;
+    
+}
+img:hover{
+    opacity: 50%;
+
+}
+.ed{
+    color: beige;
+}
