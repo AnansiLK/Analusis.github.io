@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+.back{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: violet;
+}
+.bs{
+    width: 900px;
+    height: 600px;
+    background-image: linear-gradient(to left, rgb(212, 10, 152) 0%, rgb(41, 185, 230) 33%, rgb(115, 6, 240)66%, rgb(45, 37, 63) 100%);
+    margin: 0 auto;
+    display: block;
+}
+.brawl{
+    float: left;
+    margin-left: 5px;
+    background-color: none;
+    margin-top: 250px;
+}
+.brawl1:hover{
+    background-color: rgb(255, 1, 1);
+}
+.brawl2:hover{
+    background-color: yellow;
+}
+.brawl2:hover{
+    background-color: yellowgreen;
+}
+.brawl3:hover{
+    background-color: turquoise;
+}
+.brawl4:hover{
+    background-color: rgb(104, 5, 134);
+}
+.brawl5:hover{
+    background-color: rgb(13, 69, 141);
+}
+.atu{
+    text-shadow: yellow;
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.ll{
+    font-size: 18px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
